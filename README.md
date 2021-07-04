@@ -1,7 +1,9 @@
 **Project Title**
+
 Code Refactor Ticket: Horiseon
 
 **Description**
+
 Horiseon is requesting a refactor of it's codebase for adherence to accessibility standards, and ultimatley for increased optimization of it's site for search engines. Horiseon has included a list of scenario-oriented acceptance criteria along with the refactor request. The criteria are enumerated below alongside developer refactor comments in italics.
 
 **Acceptance Criteria**
@@ -36,9 +38,13 @@ Horiseon is requesting a refactor of it's codebase for adherence to accessibilit
 _Cleaned up index.html by fixing an id link to "SEO" section of page main content, removed footer text from page according to mock up-added spacing via margin property, in the stylesheet consolidated multiple CSS rules for more consise code, and linked rules to re-purposed semantic elements_
 
 **Screenshot**
-[view Horiseon-Refactor page screenshot!](Develop/assets/images/projects_Horiseon_Refactor_Develop_index.html.png)
+[view Horiseon-Refactor page screenshot!](./assets/images/projects_Horiseon_Refactor_Develop_index.html.png)
 
 **Application**
 
-[view link to Horiseon-Refactor deployed application]()
+[view link to Horiseon-Refactor deployed application](https://coderjake91.github.io/Horiseon-Refactor/)
+
+**Horiseon-Refactor github repo URL**
+
+[Horiseon-Refactor repo](https://github.com/coderjake91/Horiseon-Refactor.git)
 
