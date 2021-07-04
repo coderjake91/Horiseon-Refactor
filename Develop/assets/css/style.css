@@ -1,9 +1,10 @@
+/* style entire sheet with universal selector rule */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* style body */
 body {
     background-color: #d9dcd6;
 }
@@ -41,7 +42,7 @@ header nav ul li {
     margin-left: 25px;
 }
 /* end- style header section and re-purpose class selector .header CSS rules */
-/* global syle declarations for a and p elements */
+/* start-global syle declarations for a and p elements */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,9 +50,9 @@ a {
 
 p {
     font-size: 14.5px;
-    line-height: 1.3;
+    line-height: 1.5;
 }
-
+/* end-global syle declarations for a and p elements */
 .hero {
     height: 800px;
     width: 100%;
@@ -98,6 +99,7 @@ p {
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: medium;
 }
 
 /* consolidate CSS rules for img element in benefits section */
@@ -109,9 +111,9 @@ p {
 }
 /* end benefits section styling--------------------------------------------------------*/
 
-/* start "main" content section styling */
+/* start "main" content section styling------------------------------------------------*/
 
-/* consolidate CSS rules in content section styling */
+/* consolidate CSS rules in content section styling-designated more consize selector class */
 .subsections {
     margin-bottom: 20px;
     padding: 50px;
@@ -128,10 +130,13 @@ p {
 
 /* consolidate CSS rules using subsections type selector for h2 element */
 .subsections h2 {
-    margin-bottom: 20px;
-    font-size: 30px;
+    margin-bottom: 25px;
+    font-size: 25px;
 }
 
-/* start "main" content section styling */
+/* end "main" content section styling------------------------------------------------ */
 
-/* removed footer from website appearance */
+/* removed footer from website appearance, but added margin thickness for small gap at the bottom of page */
+footer {
+    margin: 80px;
+}
